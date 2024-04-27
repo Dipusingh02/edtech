@@ -30,7 +30,7 @@ const Navbar = () => {
             </ul>
           </div>
         <div className="nav-button">
-        <button>Try for free -></button>
+        <button>Try for free </button>
         </div>
         </div>
       </div>
