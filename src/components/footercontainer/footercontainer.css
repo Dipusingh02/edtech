@@ -1,0 +1,17 @@
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+.leftsection{
+    /* background-color: red; */
+    margin: 60px 0;
+    font-size: 3rem;
+    width: 30%;
+
+
+}
+.name{
+    color: rgb(255, 153, 0);
+}
