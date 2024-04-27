@@ -19,13 +19,19 @@ const Navbar = () => {
                 <Link to="/aboutus">About</Link>
               </li>
               <li>
-                <Link to="/courses">Course</Link>
+                <Link to="/courses">Courses</Link>
+              </li>
+              <li>
+                <Link to="/mycourses">MyCourses</Link>
               </li>
               <li>
                 <Link to="/contactus">Contact</Link>
               </li>
             </ul>
           </div>
+        <div className="nav-button">
+        <button>Try for free -></button>
+        </div>
         </div>
       </div>
       
