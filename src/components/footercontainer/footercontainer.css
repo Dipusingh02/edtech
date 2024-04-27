@@ -1,17 +1,44 @@
 .firstsection{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin: 5px;
 
 }
 .leftsection{
-    /* background-color: red; */
-    margin: 60px 0;
-    font-size: 3rem;
-    width: 30%;
+font-weight: bold;  
+font-size: 3.2em;
+padding: 1rem;
+width: 58vw;
 
 
 }
+.para{
+    font-size: 1.1rem;
+    margin: 3rem;
+    font-weight: 500;
+    
+}
+.rightsection img{
+    height: 19rem;
+    width: 17rem;
+    margin: 1rem;
+
+    border: 1px solid black;
+    border-radius: 2rem;
+}
 .name{
-    color: rgb(255, 153, 0);
+    color: #EE4962
+}
+.container{
+   
+position: fixed;
+  top: 10%;
+  left: 16%;
+  width: 65vw;
+  background-color: #F2F4EB;
+  border: 1px solid #ccc;
+
+  border-radius: 2rem;
+  box-shadow: 2px 0px 5px ;
+    
 }
