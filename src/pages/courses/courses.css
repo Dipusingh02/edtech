@@ -1,0 +1,215 @@
+.container-courses{
+    background-color: #F4F2EB;
+margin: 0 0 0 0 ;
+height: 97vh;
+}
+  
+.react-player {
+    padding: 1.5rem 0rem 0rem 12rem;
+  }
+  .react-player iframe{
+    width: 70vw;
+    height: 60vh;
+  }
+  .content{
+     margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    margin-left: 5rem;
+}
+  .name{
+    color: #2DB982;
+    /* padding: .2rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* font-size: 4rem; */
+  }
+.para{
+    /* margin-left: 2rem;
+    margin-right: 1; */
+    padding: 2rem;
+    margin-top: -1.6rem;
+
+}
+ 
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+
+.course h3{
+    color: #EE4962;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+
+}
+.intro{
+    height: 100vh;
+    margin: 0rem 15rem 0 15rem;
+    background-color:#F4F2EB ;
+}
+.container-intro{
+    /* height: 80vh; */
+    padding: 1.5rem;
+    width: 40rem; 
+    background-color: #F4F2EB;
+    margin: 1rem 5rem 1rem  20rem ;
+    border-radius: 2rem;
+    border: 1px solid black;
+    
+}
+.dropdown-button {
+    background-color: #F4F2EB;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dropdown-content {
+    padding: 5px 20px;
+    /* display: none; */
+    background-color: #F4F2EB;
+    border-left: 3px solid #F4F2EB;
+}
+.aaa{
+    list-style: none;
+    text-decoration: none;
+}
+.dropdown-content li {
+    padding: 8px 0;
+}
+
+.dropdown .dropdown-content.show {
+    display: block;
+}
+
+.dropdown-button:hover {
+    background-color:#F4F2EB;
+}
+.couses-container-end img{
+    width: 100%;
+}
+
+.aaa{
+    font-size: 1.5rem;
+    padding: 0rem;
+
+    
+}
+
+
+
+.node{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.express{
+    font-size: 1.5rem;
+}
+.database{
+    font-size: 1.5rem;
+}
+.git{
+    font-size: 1.5rem;
+    /* text-decoration: underline; */
+    /* padding: 1rem; */
+}
+/* Phones */
+@media (max-width: 932px) {
+    /* Styles for phones (p.ortrait and landscape) */
+    .react-player iframe{
+        width: 80vw;
+        margin:2em;
+        height: 20vh;
+        padding: .5rem;
+        margin-left: 1.6rem;
+    }
+    .react-player{
+       display: inline;
+       margin: 0rem;
+       padding: 0rem;
+
+    }
+    .content{
+        margin-top: -2rem;
+    font-size: 1.3em;
+    margin-left: 1rem;
+    padding: 1rem;
+    }
+    .name{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .container-courses{
+        height: auto;
+        width: 100vw;
+    }
+    
+    .course{
+        padding: 0.5rem;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    .container-intro{
+margin-left: 1rem;
+padding: 1rem;
+width:84vw;
+    }
+  }
+  
+  /* Tablets in portrait */
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    /* Styles for tablets in portrait */
+    .react-player iframe{
+        padding: 1rem;
+        width: 85vw;
+        /* display: inline; */
+        margin-left: 2.5rem;
+    }
+    .content{
+        margin-top: 0rem;
+        font-size: 2em;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .container-intro{
+        margin-left: 3rem;
+    }
+    
+  }
+  
+  /* Tablets in landscape */
+  @media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+    /* Styles for tablets in landscape */
+    .react-player iframe{
+        padding: 1rem;
+        width: 90vw;
+        margin-left: -10rem;
+    }
+    .content{
+        margin-top: 10rem;
+        font-size: 3.3em;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .container-intro{
+        width: 75vw;
+        margin-left:8rem;
+    }
+  }
+  
