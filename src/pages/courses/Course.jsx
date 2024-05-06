@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import img2 from "../../assests/Vector.png";
 
 const Course = () => {
+  
   const weeks = [
     {
       id: 1,
@@ -154,6 +155,7 @@ const Course = () => {
 
   return (
     <div >
+    <Navbar />
       <div className="container-courses">
         <ReactPlayer
           className="react-player"
