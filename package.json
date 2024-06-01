@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cobe": "^0.6.3",
+    "react-spring": "^9.7.3"
   }
 }

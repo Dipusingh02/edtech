@@ -3,11 +3,15 @@
 }
 
 .nav {
-    padding: 0 3rem;
+    padding: 0;
     position: sticky;
     top: 0;
+    bottom: 0;
+    margin: 0;
     z-index: 1000; 
-    background-color: #fff; 
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #00000040;
+   height: 13.5vh;
 }
 
 .navbar-container {
@@ -18,18 +22,25 @@
 }
 
 .navbar-logo {
-    padding: 0.7rem;
+    padding: 0rem;
+    margin-left: -2rem;
+    margin-bottom: 0rem;
 }
 
 .navbar-logo img {
-    width: 30%;
+    width: 250px;
+height: 80px;
+gap: 0px;
+opacity: 0px;
+
 }
 
 .navbar-links {
     display: flex;
     flex-direction: column;
-    margin-left: -10rem;
+    margin-left: 0rem;
     margin-right: 12rem;
+    
 }
 
 .navbar-links ul {
@@ -40,13 +51,14 @@
 
 .navbar-links li {
     list-style: none;
-    margin: 1.5rem; 
+ padding: 1.5rem; 
+   
 }
 
 .navbar-links a {
     text-decoration: none;
     color: #313a6c;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-links a:hover {
@@ -55,8 +67,9 @@
 
 .nav-button button {
     height: 2rem;
-    width: 7rem;
+    width: 8rem;
     color: white;
+    margin-right: 2rem;
     background: linear-gradient(85.44deg, #1CB79D 50%, #2AB982 100%);
 }
 
@@ -111,6 +124,8 @@
         width: 9rem;
         position: absolute;
         left:6rem;
+        height: auto;
+        margin-top: 1rem;
     }
 
     .navbar-links li {
@@ -130,7 +145,12 @@
 @media (min-width:768px)and (max-width:1024px) and (orientation:landscape) {
     .navbar-logo img {
         width: 8rem;
-      margin-left: -2rem;
+        margin-left: 0rem;
+        height: 3.8rem;
+        margin-top: 0;
+    }
+    .nav{
+        height: 6vw;
     }
     .navbar-links{
         margin-left: 1rem;
@@ -138,16 +158,22 @@
     font-size: 1em;
     }
     .navbar-links li{
-        padding: 0rem;
+        padding: 1rem;
     }
     .nav-button{
-        margin-left: -12rem;
+        margin-left: -7rem;
     }
 }
 @media (min-width:768px)and (max-width:1024px) and (orientation: portrait) {
     .navbar-logo img {
         width: 8rem;
-      margin-left: -5rem;
+        margin-left: 0rem;
+        height: 3.8rem;
+        margin-top: 0;
+    }
+    
+    .nav{
+        height: 8vw;
     }
     .navbar-links{
         margin-left: 1rem;
@@ -155,9 +181,9 @@
     font-size: 0.85em;
     }
     .navbar-links li{
-        padding: 0rem;
+        padding: 1rem;
     }
     .nav-button{
-        margin-left: -12rem;
+        margin-left: -7rem;
     }
 }

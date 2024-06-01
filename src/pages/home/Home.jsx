@@ -1,31 +1,22 @@
-import React from 'react';
-import './home.css';
-import Navbar from '../../components/navbar/Navbar';
-import Header from '../home/Header'
-import himg1 from '../../assests/Becomıng a Web developer 12.png'
-import himg2 from '../../assests/Dark Navy Blue Game Youtube Thumbnail 4.png'
+import React from "react";
+import "./home.css";
+import Navbar from "../../components/navbar/Navbar";
+import Header from "../home/Header";
+import H_course from "./H_course";
+import H_globe from "./H_globe";
+import H_aboutc from "./H_aboutc";
 
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg_colorh">
       <Navbar />
       <Header />
-  
-
-      <div className='Home-ec'>
-      <h1>Enroll in Our Courses</h1>
-      </div>
-      <div className='hcourse-details'>
-      <img src={himg1} />
-      <img src={himg2} />
-      <img src={himg1} />
-      <img src={himg2} />
-      <img src={himg1} />
-      <img src={himg2} />
-      </div>
+      <H_course />
+      <H_globe />
+      <H_aboutc />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

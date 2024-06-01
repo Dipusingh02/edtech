@@ -1,0 +1,12 @@
+.hfeature{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+.hcabout-container{
+   background-color:#ECECEC;
+ display: flex;  
+ flex-direction: row;
+ padding: 2rem;
+
+}

@@ -1,6 +1,11 @@
 .Home-ec{
     margin-top: 0rem;
 }
+.bg_colorh{
+    background-color: #D9D9D9;
+    width: 100%;
+    height:auto;
+}
 .Home-ec h1{
     text-align: center;
     color: #1DB89D;

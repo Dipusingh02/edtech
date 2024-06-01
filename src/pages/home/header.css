@@ -1,16 +1,13 @@
 .container-hheader {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0rem 0rem 6rem;
+    /* margin: 0rem 0rem 0rem 6rem; */
+    margin-top: 0rem;
     width: 70vw;
     padding: 2rem;
-    margin-left: 0rem;
+
 }
-.bg-color{
-    background-color:#F4F2EB ;
-    width: 100%;
-    height:auto;
-}
+
 
 .heading-text-top {
     color: red;

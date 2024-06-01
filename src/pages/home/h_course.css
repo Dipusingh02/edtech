@@ -1,0 +1,37 @@
+.u {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .circle-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none; /* Ensure the link does not have an underline */
+    margin-left: 1rem; /* Add some space between the features and the button */
+  }
+  
+  .circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-button .arrow {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .all-courses-text {
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #323232;
+  }
+  

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import Logo from "../../assests/image.png";
+import Logo from "../../assests/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +29,7 @@ const Navbar = () => {
               <li><Link to="/contactus">Contact</Link></li>
             </ul>
           </div>
+          
           <div className="nav-button">
             <button>Try for free</button>
           </div>
