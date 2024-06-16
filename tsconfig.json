@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src", // This should be set to where your source files are relative to tsconfig.json
+      "paths": {
+        "@/*": ["./*"] // Adjust this path if your base URL is not directly in 'src'
+      }
+    }
+  }
+  
