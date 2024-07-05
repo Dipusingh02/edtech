@@ -1,129 +1,48 @@
-/* .firstsection{
-    display: flex;
-    margin: 5px;
-
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
-.leftsection{
-font-weight: bold;  
-font-size: 3.2em;
-padding: 1rem;
-width: 58vw;
 
-
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.para{
-    font-size: 1.1rem;
-    margin: 3rem;
-    font-weight: 500;
-    
+
+.footer-top {
+  margin-bottom: 20px;
 }
-.rightsection img{
-    height: 19rem;
-    width: 17rem;
-    margin: 1rem;
 
-    border: 1px solid black;
-    border-radius: 2rem;
+.footer-logo {
+  width: 150px;
+  margin-bottom: 10px;
 }
-.name{
-    color: #EE4962
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
 }
-.container{
-   
-position: fixed;
-  top: 10%;
-  left: 16%;
-  width: 65vw;
-  background-color: #F2F4EB;
-  border: 1px solid #ccc;
-
-  border-radius: 2rem;
-  box-shadow: 2px 0px 5px ;
-    
-} */
-
-
-
-
-  
-footer {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    width: 100vw;
-    /* text-align: center; */
-    /* padding: 20px 0; */
-  }
-  
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    /* display: flex; */
-    flex-direction: column;
-  }
-  .footer-container h1{
-display: flex;
-justify-content: center;
-align-items: center;
-  }
-  
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  
-  .social-icon {
-    font-size: 1.5rem;
-    margin: 0rem .5rem;
-    color: #fff;
-  }
-  .social-icon :hover{
-    color: aqua;
-  }
-  
-  .footer-links {
-    
-    width: 45vh;
-  }
-  
-  .footer-links a {
-    color: #fff;
-    text-decoration: none;
-    /* margin-right: 65rem; */
-    padding: 0.5rem;
-    display: flex;
-
-  }
-  
-  .footer-links a:hover {
-    text-decoration: underline;
-   
-  }
- 
-  p {
-    font-size: 0.8rem;
-  }
-  
-  
-  @media (max-width: 768px) {
-    .social-icon {
-      font-size: 1.2rem;
-    }
-  }
- 
-.free{
-    position:sticky;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
+.social-icons a:hover{
+  color: #EE4962;
 }
-.free a{
-    width: 45vw;
-    color: white;
-    text-decoration: none;
-    /* flex: 1; */
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
 }
-.thired{
-    display: flex;
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0;
 }
